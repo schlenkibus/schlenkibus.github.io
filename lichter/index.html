@@ -1,0 +1,52 @@
+<style>
+	body {
+	background-color: black;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.cool {
+	text-align: center;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 7px rgba(28,110,164,0);
+	color: #FF41FB;
+	background: RGBA(0,0,0,0);
+	padding-bottom: 1%;
+}
+
+img {
+	display: block;
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+</style>
+<body>
+	<video playsinline autoplay muted loop poster="blur.gif" id="bgvid">
+    <source src="blur.webm" type="video/webm">
+	</video>
+	<div>
+		<h1 class="cool">Lichterketten?</h1>
+	<img src="blink_test1.gif">
+		<p class="cool">Einfach per Handy gewünschte LEDs an- oder ausstellen.</p>
+	<img src="circle_test1.gif">
+		<p class="cool">Verschiedene Schritte hinzufügen, entfernen und verändern.</p>
+	<img src="nonblur.gif">
+		<p class="cool">Keine Fernbedienung nötig: einfach mit dem Handy verbinden und losprobieren!</p>
+	</div>
+</body>

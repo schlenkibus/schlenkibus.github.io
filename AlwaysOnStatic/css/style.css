@@ -1,0 +1,217 @@
+body
+{
+	margin : 0px;
+	padding : 0px;
+	font-family: "Verdana", sans-serif;
+	background-color : gray;
+}
+
+
+/* HEADER -----------------*/
+header
+{
+	background-color : gray;
+	border-bottom : 2px white solid;
+}
+
+header img
+{
+
+	width : 60%;
+	display : block;
+	margin : auto;
+
+	position : center;
+}
+
+
+/* INSIDE CONTAINER -----------------*/
+.insideContainer
+{
+	width: 60%;
+    margin: auto;
+}
+
+
+/* 2D -----------------*/
+.twoD
+{
+	background-image : url("../images/2dbackground.png");
+	background-position: center;
+	background-size : cover;
+	height : 100%;
+	margin : 0px;
+
+}
+
+.twoD .insideContainer
+{
+	background-color : #663021;
+	height : 100%;
+}
+
+.container
+{
+	position : relative;
+	text-align: center;
+    color: white;
+}
+
+.container h1
+{
+	position : absolute;
+	bottom : -17px;
+	width:100%;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	background-color : rgba(0,0,0,0.3);
+}
+
+.twoD .insideContainer img
+{
+	width : 100%;
+}
+
+.twoD .insideContainer p
+{
+	padding-left : 30px;
+	padding-right : 30px;
+	padding-bottom : 20px;
+	color : white;
+}
+
+
+/* 3D -----------------*/
+.threeD
+{
+	background-image : url("../images/3dbackground.png");
+	background-position:center;
+	background-size : contain;
+	height : 100%;
+	margin : 0px;
+}
+
+
+.threeD .insideContainer img
+{
+	width : 100%;
+}
+
+.threeD .insideContainer h2
+{
+	margin-left : 30px;
+	color : white;
+}
+
+.threeD .insideContainer p
+{
+	padding-left : 30px;
+	padding-right : 30px;
+	padding-bottom : 20px;
+	color : white;
+}
+
+.threeD .insideContainer
+{
+	background-color : #b85c48;
+	height : 100%;
+
+}
+
+/*Video ---------------------*/
+.Video
+{
+	background-image : url("../images/2dbackground.png");
+	background-position: center;
+	background-size : cover;
+	height : 100%;
+	margin : 0px;
+}
+
+.Video .insideContainer
+{
+	background-color : #663021;
+	height : 100%;
+}
+
+.Video .insideContainer h2
+{
+	margin-left : 30px;
+	margin-top : 0px;
+	padding-top : 20px;
+	color : white;
+}
+
+.Video .insideContainer p
+{
+	padding-left : 30px;
+	padding-right : 30px;
+	padding-bottom : 20px;
+	color : white;
+}
+
+
+
+/* Download -----------------*/
+.Download
+{
+	background-color : #275a93;
+	background-image : url("../images/downloadBack.png");
+	background-position: center;
+	background-size : contain;
+	height : 100%;
+	margin : 0px;
+}
+
+.Download .insideContainer
+{
+	background-color : #6399d5;
+	height : 100%;
+}
+
+.Download .insideContainer img
+{
+	width : 200px;
+	display : block;
+	margin : auto;
+	margin-bottom : 20px;
+}
+.Download .insideContainer a:hover img
+{
+	opacity : 0.7;
+}
+
+.Download .insideContainer h2
+{
+	text-align : center;
+	padding-top : 20px;
+	color : white;
+	margin-top : 0px;
+}
+
+/* Footer -----------------*/
+footer
+{
+	background-color : gray;
+	border-top : 2px white solid;
+}
+
+footer p
+{
+	text-align : center;
+	padding : 20px;
+	margin : 0px;
+}
+
+footer a
+{
+	text-decoration : none;
+	color : white;
+}
+
+footer a:hover
+{
+	text-decoration : none;
+	color : white;
+	opacity : 0.6;
+}
