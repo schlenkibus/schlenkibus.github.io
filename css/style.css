@@ -18,12 +18,24 @@
   justify-content: space-between;
 }
 
+@font-face {
+  font-family: "Halogen";
+  src:url("../font/Halogen.otf") format("opentype");
+}
+
+body {
+  font-family: "Halogen"
+}
+
 .footer-container {
+  position:fixed;
+  bottom:0;
   color: #fff;
   background-color: #5995DF;
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .footer {
